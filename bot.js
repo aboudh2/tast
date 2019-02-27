@@ -17,9 +17,6 @@ client.on('message', msg => {
   }
 });
 
-client.on('message', msg => {
-  if (msg.content === 'سلام عليكم') {
-    msg.reply('**وعليكم السلام ورحمة الله وبركاته**');
   }
 });
 
@@ -41,15 +38,12 @@ client.on('message', msg => {
   }
 });
 
-client.on('message', msg => {
-  if (msg.content === 'كيلر') {
-    msg.reply('**عيون كيلر**');
   }
 });
 
 client.on('message', msg => {
   if (msg.content === 'الرابط') {
-    msg.reply('https://discord.gg/E5dEWAu');
+    msg.reply('https://discord.gg/AjYCRVK');
   }
 });
 
@@ -72,11 +66,11 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === 'الشعار') {
-              message.channel.send('شعارك بل دسكورد   **! GH**');
+              message.channel.send('شعارك بل دسكورد   **! ! нσ‘ **');
 			  
 			  
 						
-			  message.channel.send('شعارك بل اللعبة   **๖ۣۜ𝕲𝓗**');
+			  message.channel.send('شعارك بل اللعبة   ** !♚`ӈơ**');
               message.channel.sendFile("./photoshop.PNG");
                
 
