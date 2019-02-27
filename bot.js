@@ -14,5 +14,11 @@ client.user.setGame(`-help | ${client.guilds.size} Servers `,"http://twitch.tv/P
 client.user.setStatus("dnd")
 });
 
+client.on('message', message => {
+    if (message.content === 'باك') {
+        message.reply('ولكم');
+      }
+});
+
 
 client.login(process.env.BOT_TOKEN); 
