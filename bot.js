@@ -57,16 +57,14 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === 'برب') {
         message.reply(' ٺــۑْۧــټ ̨ﻻ̍ۙ ̨ٺــطــﯡڶ ؏ــڸــٻۧــڼۨــٰ̍ا̍😢
-[user] ');
+[user]');
       }
 });
   
      
 client.on('message', message => {
     if (message.content === '.') {
-        message.reply('آطلق إثبات وجودك💔😊
-[user] ');
-      }
+        message.reply('آطلق إثبات وجودك💔😊 [user]');      }
 });
   
      
