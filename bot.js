@@ -16,8 +16,7 @@ client.user.setStatus("dnd")
 
 client.on('message', message => {
     if (message.content === 'باك') {
-        message.reply('ۏڷــګــمۘ ۛ ּمۘــڼۨــﯡڕ ּڀــ؏ــڛۜــڵ:heart:️
-');
+        message.reply('ۏڷــګــمۘ ۛ ּمۘــڼۨــﯡڕ ּڀــ؏ــڛۜــڵ:heart:️');
       }
 });
 
@@ -31,8 +30,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'الشعار') {
-        message.reply('!Discord | ! нσ‘,
-');
+        message.reply('!Discord | ! нσ‘,');
       }
 });
       
