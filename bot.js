@@ -56,7 +56,7 @@ client.on('message', message => {
      
 client.on('message', message => {
     if (message.content === 'برب') {
-        message.reply(' ٺــۑْۧــټ ̨ﻻ̍ۙ ̨ٺــطــﯡڶ ؏ــڸــٻۧــڼۨــٰ̍ا̍😢 [user]');
+        message.reply(' ٺــۑْۧــټ ̨ﻻ̍ۙ ̨ٺــطــﯡڶ ؏ــڸــٻۧــڼۨــٰ̍ا̍😢');
       }
 });
   
