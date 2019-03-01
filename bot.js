@@ -10,7 +10,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Zine-Hamo-lizer ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`-help | ${client.guilds.size} Servers `,"http://twitch.tv/Pixel Bot")
+client.user.setGame(`BY - M A F I A `,"http://twitch.tv/Pixel Bot")
 client.user.setStatus("dnd")
 });
 
